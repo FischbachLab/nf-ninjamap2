@@ -1,0 +1,8 @@
+new
+genome {path_to_genome_fasta}
+# Repeat the follwoing for each bedgraph file that needs to be visualized
+load  {bedgraph_file}
+# Output directory
+snapshotDirectory mySnapshotDirectory
+sort position
+snapshot
